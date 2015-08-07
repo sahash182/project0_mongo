@@ -37,7 +37,7 @@ $(function(){
         var newFood = data;
         var $foodHtml = $(foodsController.template(foodObj));
         // console.log('hello');
-      $('#food-list').append($foodHtml);
+      // $('#food-list').append($foodHtml);
         foodsController.render(newFood);
       });
     },
